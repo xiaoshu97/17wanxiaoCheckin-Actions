@@ -1,6 +1,6 @@
 # 🌈17wanxiaoCheckin-Actions
 
-
+adasdfasdf
 
 **🤺2021.01:21：试图修复可能会出现的登录失败，修复账号打卡失败脚本停止，添加 QQ 邮箱推送（写 bug ）**
 
@@ -139,7 +139,7 @@ on:
   schedule:
     - cron: 0 22,4,9 * * *
 ```
-
+asdfads
 ### 4、程序报错显示密码错误，还有 * 次机会？
 
 请立马修改 secrets 的密码再尝试运行
