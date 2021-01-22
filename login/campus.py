@@ -54,7 +54,7 @@ class CampusCard:
         '''
         try:
             resp = requests.post(
-                'https://server.17wanxiao.com/campus/cam_iface46/exchangeSecretkey.action',
+                'https://app.17wanxiao.com/campus/cam_iface46/exchangeSecretkey.action',
                 headers={
                     'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 5.1.1; HUAWEI MLA-AL10 Build/HUAWEIMLA-AL10)',
                 },
@@ -106,7 +106,7 @@ class CampusCard:
         }
         try:
             resp = requests.post(
-                'https://server.17wanxiao.com/campus/cam_iface46/loginnew.action',
+                'https://app.17wanxiao.com/campus/cam_iface46/loginnew.action',
                 headers={'campusSign': hashlib.sha256(json.dumps(upload_args).encode('utf-8')).hexdigest()},
                 json=upload_args,
                 verify=False,
